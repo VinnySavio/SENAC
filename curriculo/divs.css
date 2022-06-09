@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.esq{
+    background-color: blueviolet;
+    
+    width: 30%;
+    
+}
+.dir{
+    background-color: aqua;
+    width:69%;
+
+    
+}
