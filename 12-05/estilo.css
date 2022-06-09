@@ -1,0 +1,29 @@
+@keyframes exemplo_img {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes mover {
+    from {left: 10px;}
+    to {left: 0px;}
+}
+body{
+    background-image: url(fundo.jpg);
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    animation-name: mover;
+    animation-duration: 2s;
+}
+img{
+    width: 400px;
+    animation-name: exemplo_img;
+    animation-duration: 2s;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    color: crimson;
+}
